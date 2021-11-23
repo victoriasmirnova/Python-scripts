@@ -1,0 +1,18 @@
+import random
+
+fortune = random.randint(0, 4)
+
+if fortune == 0:
+  print("One day you are going to die")
+elif fortune == 1:  
+  print("Following Marek's instagram will bring you luck")
+elif fortune == 2:
+  print("No snowflake feels responsible for an avalanche")
+elif fortune == 3:
+  print("Тебя сложно найти, легко потерять и невозможно забыть")
+elif fortune == 4:
+  print("The fortune you seek is in another cookie")
+
+import time
+time.sleep (10)
+print ("Goodbye")
